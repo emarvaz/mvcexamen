@@ -7,6 +7,8 @@
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
+USE `eduardo-martinez-database`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -21,8 +23,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `crud_ejemplo`
 --
-DROP DATABASE IF EXISTS crud_ejemplo;
-CREATE DATABASE crud_ejemplo;
 
 -- --------------------------------------------------------
 
